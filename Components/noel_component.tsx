@@ -204,7 +204,7 @@ export default function HeroVideoComponent({
                     {topVideos.map((video, index) => (
                         <button
                             key={index}
-                            onClick={(e: MouseEvent) => { e.stopPropagation(); startVideo(index) }}
+                            onClick={(e) => { e.stopPropagation(); startVideo(index) }}
                             onMouseEnter={() => setHoveredIndex(index)}
                             onMouseLeave={() => setHoveredIndex(null)}
                             style={{

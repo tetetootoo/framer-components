@@ -1,0 +1,12 @@
+{
+  "name": "framer-components",
+  "private": true,
+  "devDependencies": {
+    "framer": "^3.0.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.7.2"
+  }
+}
